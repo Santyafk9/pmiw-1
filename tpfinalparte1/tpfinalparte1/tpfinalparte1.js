@@ -42,7 +42,7 @@ function draw() {
 function mousePressed() {
   if (pantallaActual == 0) {
     if (dentro(300, 150, 200, 70)) pantallaActual = 1; 
-    if (dentro(300, 250, 200, 70)) pantallaActual = 22;
+    if (dentro(300, 250, 200, 70)) pantallaActual = 2;
   }
   else if (pantallaActual == 1) {
     if (dentro(300, 150, 200, 150)) pantallaActual = 2;
